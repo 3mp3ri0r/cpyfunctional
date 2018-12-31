@@ -24,7 +24,7 @@ deploy:
   server: https://test.pypi.org/legacy/
   user: 3mp3ri0r
   password:
-    secure:
+    secure: GM+SDC8Zabx/Nu/TzsHPpVJ7J46+YnoHHqCg8c5zz+eWpnp8ljIlwFrp5sJIcjspP/QCML3gSC4OmkLstsBWJ1s5H7sUfXsItSH4uni2bfx2Bp5etARBwNEBM69ntgxIUvy9T4qRXbEI9oPcqBQjxEq09oqnrZFCQqCl9s2Mh+aQMGdMvOJne8h2h5U/LiIVKp+WNviQJFfhpobFSFcxuqSZdNRcuU7/gJ5LOiVHm3P1m+y/cPszy+tiwc7BLjQQLblnQAsWNx4cJZERCLFZ7bBjQZ8zjhOXSPhtpr2Wjbgue+cY9N1bBkJlvQhs/oQmmLRDwX8tt0F1Vu/P0P1p8fl+f0mc8ba+s3La1LYmDAi/RdSdN5qCPjoqLzEMD620eVr0602w6ExtsuV3jYj/JOutxWz4yFwo+7m4lgSqrJg0L0L+z7iGJLsUR+GN1UGNf712YMYoBjdmDUO/ugySQCIfp7x1jG1bNiJZNnxJ+vxt2AvBeCmONV4CsKpIJAp/AsA1Ffhr/tz77FFCDAgQ+l3PrvoitHyI4Bc3lGwQqq4/q+F/VzB8j52Rm6GmQdNhkQjPxZprZZoV7l1LbAUMw3V7JBI87jrfiRlnjOXpuJnqlg64/9vKQEige384bpobfZW+dTCCUHV2DxVuHzZr+Di22evf+9rbdErFVgbTJWo=
   skip_existing: true
   on:
     branch: release
@@ -33,7 +33,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: 3mp3ri0r
   password:
-    secure:
+    secure: GM+SDC8Zabx/Nu/TzsHPpVJ7J46+YnoHHqCg8c5zz+eWpnp8ljIlwFrp5sJIcjspP/QCML3gSC4OmkLstsBWJ1s5H7sUfXsItSH4uni2bfx2Bp5etARBwNEBM69ntgxIUvy9T4qRXbEI9oPcqBQjxEq09oqnrZFCQqCl9s2Mh+aQMGdMvOJne8h2h5U/LiIVKp+WNviQJFfhpobFSFcxuqSZdNRcuU7/gJ5LOiVHm3P1m+y/cPszy+tiwc7BLjQQLblnQAsWNx4cJZERCLFZ7bBjQZ8zjhOXSPhtpr2Wjbgue+cY9N1bBkJlvQhs/oQmmLRDwX8tt0F1Vu/P0P1p8fl+f0mc8ba+s3La1LYmDAi/RdSdN5qCPjoqLzEMD620eVr0602w6ExtsuV3jYj/JOutxWz4yFwo+7m4lgSqrJg0L0L+z7iGJLsUR+GN1UGNf712YMYoBjdmDUO/ugySQCIfp7x1jG1bNiJZNnxJ+vxt2AvBeCmONV4CsKpIJAp/AsA1Ffhr/tz77FFCDAgQ+l3PrvoitHyI4Bc3lGwQqq4/q+F/VzB8j52Rm6GmQdNhkQjPxZprZZoV7l1LbAUMw3V7JBI87jrfiRlnjOXpuJnqlg64/9vKQEige384bpobfZW+dTCCUHV2DxVuHzZr+Di22evf+9rbdErFVgbTJWo=
   skip_existing: true
   on:
     branch: master
