@@ -9,10 +9,10 @@ cpyfunctional
 .. role:: python(code)
    :language: python
 
-.. image:: https://travis-ci.org/3mp3ri0r/cpyfunctional.svg?branch=development
+.. image:: https://travis-ci.org/3mp3ri0r/cpyfunctional.svg?branch=master
     :target: https://travis-ci.org/3mp3ri0r/cpyfunctional
 
-.. image:: https://codecov.io/gh/3mp3ri0r/cpyfunctional/branch/development/graph/badge.svg
+.. image:: https://codecov.io/gh/3mp3ri0r/cpyfunctional/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/3mp3ri0r/cpyfunctional
 
 .. contents:: Table of content
