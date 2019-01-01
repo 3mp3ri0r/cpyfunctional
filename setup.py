@@ -1,7 +1,6 @@
 import ast
 import os
 import re
-import sys
 
 from setuptools import setup
 
@@ -13,9 +12,9 @@ with open('cpyfunctional/__init__.py', 'rb') as f:
 with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as page:
     README = page.read()
 
-install_requires = []
-if sys.version_info < (3, 5):
-    install_requires.append('typing')
+install_requires = [
+    'typing ; python_version<"3.5"'
+]
 
 setup(
     name='Cpyfunctional',
